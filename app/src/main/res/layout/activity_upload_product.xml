@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadProductActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="180dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/prodDesc"
+        app:layout_constraintTop_toBottomOf="@+id/prodDesc" />
+
+    <EditText
+        android:id="@+id/productId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Product Id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/prodTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/productId"
+        app:layout_constraintTop_toBottomOf="@+id/productId" />
+
+    <EditText
+        android:id="@+id/prodSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Subtitle"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/prodTitle"
+        app:layout_constraintTop_toBottomOf="@+id/prodTitle" />
+
+    <EditText
+        android:id="@+id/prodDesc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:singleLine="false"
+        android:scrollbars="vertical"
+        android:ems="10"
+        android:hint="Description"
+        android:textAlignment="gravity"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cuttedPrice" />
+
+    <EditText
+        android:id="@+id/cuttedPrice"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Cutted Price"
+        android:layout_marginStart="20dp"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prodSubtitle" />
+
+    <EditText
+        android:id="@+id/salePrice"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Actual Price"
+        android:layout_marginEnd="20dp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cuttedPrice" />
+
+    <Button
+        android:id="@+id/uploadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/uploadProduct"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/uploadProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

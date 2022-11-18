@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "46361032768",
+    "firebase_url": "https://jharkhand-warrior-6b5c8.firebaseio.com",
+    "project_id": "jharkhand-warrior-6b5c8",
+    "storage_bucket": "jharkhand-warrior-6b5c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46361032768:android:223955f4c62f4f795207a5",
+        "android_client_info": {
+          "package_name": "com.jharkhandwarrior.jhadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46361032768-slchegij8f34qjgqv4d3vu4nnhu90q5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqIwVa_Xqs6HQIZcMlxnYX87wZbyWa9CI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46361032768-slchegij8f34qjgqv4d3vu4nnhu90q5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46361032768:android:64fb635d3a765ea65207a5",
+        "android_client_info": {
+          "package_name": "com.jharkhandwarrior.main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46361032768-blnv4pui1o8p0jeapoku0od7bsn80da1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jharkhandwarrior.main",
+            "certificate_hash": "bbcc6f69815c77a2c2ff908a76ad4839ce91fcd2"
+          }
+        },
+        {
+          "client_id": "46361032768-slchegij8f34qjgqv4d3vu4nnhu90q5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqIwVa_Xqs6HQIZcMlxnYX87wZbyWa9CI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46361032768-slchegij8f34qjgqv4d3vu4nnhu90q5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46361032768:android:70a619d9686ce31f5207a5",
+        "android_client_info": {
+          "package_name": "com.rishiksahu.jharadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46361032768-slchegij8f34qjgqv4d3vu4nnhu90q5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqIwVa_Xqs6HQIZcMlxnYX87wZbyWa9CI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46361032768-slchegij8f34qjgqv4d3vu4nnhu90q5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
